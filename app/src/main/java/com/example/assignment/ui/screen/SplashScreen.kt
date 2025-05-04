@@ -17,6 +17,7 @@ import androidx.compose.ui.unit.dp
 import androidx.navigation.NavHostController
 import com.example.assignment.R
 import com.example.assignment.ui.theme.blackV
+import com.example.assignment.ui.theme.whiteV
 import kotlinx.coroutines.delay
 
 
@@ -35,7 +36,7 @@ fun SplashScreen(navHostController: NavHostController) {
     }
     Box(
         Modifier
-            .fillMaxSize().background(blackV).alpha(alpha.value)
+            .fillMaxSize().background(whiteV).alpha(alpha.value)
     ) {
         Image(
             painter = painterResource(id = R.drawable.logo),
